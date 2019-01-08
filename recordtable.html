@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>student</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    thead {
+      font-size: 17px;
+      background-color: skyblue;
+    }
+
+    h2 {
+      text-shadow: 2px 2px pink;
+      text-align: center;
+      padding: 10px;
+      padding-bottom: 18px;
+
+    }
+
+    td.left:hover {
+      background-color: transparent;
+
+    }
+
+    td:hover {
+      background-color: pink;
+    }
+
+    hr {
+      border-top: 1px solid #E4ABAB;
+      padding: 15px;
+
+    }
+
+
+
+    /*! .progress {
+      cursor: progress;
+   }*/
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Student Records</h2>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="name">Firstname:</label>
+        <input type="name" class="form-control" id="name" placeholder="Enter name" required>
+      </div>
+      <div class="form-group">
+        <label for="lastname">Lastname</label>
+        <input type="lastname" class="form-control" id="pwd" placeholder="Enter lastname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Add to record</button>
+    </form>
+    <br>
+    <hr>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kanchan</td>
+          <td>Sawalkar</td>
+          <td>sawalkar@gmail.com</td>
+
+          <td class="left">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>            &nbsp; &nbsp; &nbsp;
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+
+          </td>
+
+
+        </tr>
+        <tr>
+          <td>Vrushali</td>
+          <td>Sonawane</td>
+          <td>sonawanevru@gmail.com</td>
+          <td class="left"><a href="#" data-toggle="tooltip" data-placement="right" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>            &nbsp; &nbsp; &nbsp;
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>
+        <tr>
+          <td>Vrushali</td>
+          <td>Pednekar</td>
+          <td>vrushp96@gmail.com</td>
+          <td class="left">
+            <!-- <button type="button" class="btn btn-basic"><span class="glyphicon glyphicon-pencil"></span><b>Edit</b></button>-->
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>            &nbsp; &nbsp; &nbsp;
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+
+        </tr>
+        <tr>
+          <td>Priya</td>
+          <td>Sawalkar</td>
+          <td>ps2531@gmail.com</td>
+          <td class="left"><a href="#" data-toggle="tooltip" data-placement="right" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>            &nbsp; &nbsp; &nbsp;
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>
+        <tr>
+          <td>Mayuri</td>
+          <td>kharat</td>
+          <td>jkkharat@gmail.com</td>
+          <td class="left"><a href="#" data-toggle="tooltip" data-placement="right" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>            &nbsp; &nbsp; &nbsp;
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Delete"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+
+</html>
